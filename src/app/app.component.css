@@ -32,9 +32,10 @@
   }
   
   #notes-container{
+    min-height: 55vh;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
   }
   
