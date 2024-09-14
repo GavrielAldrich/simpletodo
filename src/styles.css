@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    margin-top: 0px;
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 0 16px;
+  }
