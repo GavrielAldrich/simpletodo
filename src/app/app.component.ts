@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { CommonModule, NgLocalization } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { windowWhen } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -91,7 +90,4 @@ export class AppComponent implements OnInit {
     }
   }
 
-  deleteNote(index: number): void {
-    this.notes.splice(index, 1);
-  }
 }
